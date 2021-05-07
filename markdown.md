@@ -121,3 +121,46 @@ ___
 <br>
 
 ___
+<<<<<<< HEAD
+=======
+
+## **목록**
+항목들을 정렬된 목록들로 구성하거나 순서없이 정렬된 목록들로 구성할 수 있습니다.
+
+* **정렬된 목록** : 숫자와 함께 마침표를 추가하여 텍스트를 입력하면 됩니다.  
+  숫자의 순서는 상관없으나 처음은 1로 시작해야 합니다.
+
+  |Example|출력 값|
+  |:--:|:--:|
+  |1. First item<br>2. Second item<br>3. Third item|  1. First item<br>2. Second item<br>3. Third item|
+
+<br>
+
+* **비정렬된 목록** : 항목 앞에 '-', '*', '+'를 추가하면 됩니다.  
+  **ex)**
+* 입력값
+``` 
+    - First item
+    + Second item
+    * Third item
+        * Indented item
+    - Fourth item
+      ![Tux](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png)
+```
+* 출력값
+    - First item
+    + Second item
+    * Third item
+        * Indented item
+    - Fourth item  
+      ![Tux](https://d33wubrfki0l68.cloudfront.net/e7ed9fe4bafe46e275c807d63591f85f9ab246ba/e2d28/assets/images/tux.png)
+
+<br>
+
+> ※ 입력 값 예시는 3 가지 문자가 사용이 된다는 것을 보여줄려고 표현한 것 입니다.  
+목록을 생성할 땐 같은 문자로만 사용하는 것이 좋습니다.
+
+<br>
+
+___
+>>>>>>> my-idea
