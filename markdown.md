@@ -54,3 +54,34 @@ ___
 <br>
 
 ___
+
+## **강조**
+'*' , '_'를 이용하여 텍스트를 굵게 하거나 기울임꼴로 변환시킬 수 있습니다.
+
+* 굵음 : 굵은 텍스트는 단어나 문장 전후에 '*'나 '_'을 2개씩 추가하면 됩니다.
+
+  |Example|출력 값|
+      |:------:|:------:|
+  |I just love `**bold text**`|I just love **bold text**|
+  |I just love `___boid text__`|I just love __bold text__|
+<br>
+
+* 기울림 :  기울어진 텍스트는 단어나 문장 전후에 '*'나 '_'을 1개씩 추가하면 됩니다.
+
+  |Example|출력 값|
+      |:------:|:------:|
+  |Italicized text is the \*cat's meow*|Italicized text is the *cat"s meow*|
+  |Italicized text is the \_cat's meow_|Italicized text is the _cat's meow_|
+<br>
+
+* 굵고 기울림 : 굵고 기울어진 텍스트는 단어나 문장 전후에 '*'나 '_'을 3개씩 추가하면 됩니다.
+
+  |Example|출력 값|
+      |:------:|:-------:|
+  |This text is `***really important***` |This text is ***really important***|
+  |This text is ` ___really important___`  |This text is ___really important___|
+  |This text is `**_really important_**`|This text is **_really important_**|
+<br>
+
+> ※ '*' 나 '_'와 단어나 문장 사이에는 공백이 있어서는 안됩니다.
+___
