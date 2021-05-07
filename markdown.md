@@ -85,3 +85,39 @@ ___
 
 > ※ '*' 나 '_'와 단어나 문장 사이에는 공백이 있어서는 안됩니다.
 ___
+
+## **Blockquotes**
+문장을 따로 블럭처리해주는 방법은 단어나 문장 앞에서 '>'을 사용하면 됩니다. Blockquotes는 여러 번 사용이 가능하며, 중첩으로 사용이 가능합니다. 물론, 다른 요소와도 함께 사용이 가능합니다.  
+**ex)**
+* 입력값
+``` 
+    1. > Markdown is good.  
+
+    2. > Markdown is great.  
+       > Markdown is good.  
+
+    3. > Markdown is good.
+       >> Markdown is great.  
+
+    4. > ### Basic syntax
+       > - Markdown is good.
+       > - Markdown is great.
+       >*Everything* is good.
+```
+* 출력값
+1. > Markdown is good.
+
+2. > Markdown is great.  
+   > Markdown is good.
+
+3. > Markdown is good.
+   >> Markdown is great.
+
+4. > ### **Basic syntax**
+   > - Markdown is good.
+   > - Markdown is great.
+       >*Everything* is good.
+
+<br>
+
+___
