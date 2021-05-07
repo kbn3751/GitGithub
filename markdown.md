@@ -41,4 +41,16 @@ ___
 * '#'없이 제목의 다음 줄에 '=='나 '--'를 사용하면 제목으로 만들어 집니다.
 
 <br>
+___
 
+## **단락**
+단락을 만들려면 빈 줄을 사용하면 됩니다.  
+문장을 나눌려면 두 개 이상의 공백을 만들어 Enter 키를 누르거나 `<br>`표현을 사용하면 됩니다.
+
+|Example 1|Example 2|
+|:--|:--|
+|Thhis is Markdown.(space bar)(space bar) <br> It is good.|This is Markdown. \<br> It is good.
+
+<br>
+
+___
