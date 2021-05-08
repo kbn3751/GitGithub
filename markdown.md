@@ -163,4 +163,14 @@ ___
 <br>
 
 ___
->>>>>>> my-idea
+
+## **코드**
+단어나 구를 코드로 나타내려면 백틱( ` )을 사용하면 됩니다.
+|Example|출력 값|
+|:--:|:--:
+|At the command prompt, type \`nano\`.| At the command promp, type `nano`.|
+
+<br>
+
+___
+
