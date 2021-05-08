@@ -1,4 +1,5 @@
 > ## Git & Github
+컴퓨터학부 20201816 강병민 <br>
 https://github.com/kbn3751/GitGithub
 
 ---
