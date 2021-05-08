@@ -186,3 +186,47 @@ ___
 <br>
 
 ___
+
+## **링크**
+링크를 만들려면 제목은 []로 표현한 이후 URL을 이어지게 괄호안에 넣으면 됩니다. URL의 제목을 추가할 수 있어 추가하려면 괄호안에 ""를 사용하여 쓰시면 됩니다. 링크 역시 강조하기가 가능합니다.  
+**ex)**
+* 입력값
+``` 
+    1. My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+    
+    2. <https://www.markdownguide.org>
+       <fake@example.com>
+    
+    3. I love supporting the **[EFF](https://eff.org)**.
+    This is the *[Markdown Guide](https://www.markdownguide.org)*.
+    See the section on [`code`](#code).
+```
+* 출력값
+    1. My favorite search engine is [Duck Duck Go](https://duckduckgo.com).
+
+    2. <https://www.markdownguide.org>  
+       <fake@example.com>
+
+    3. I love supporting the **[EFF](https://eff.org)**.  
+       This is the *[Markdown Guide](https://www.markdownguide.org)*.  
+       See the section on [`code`](#code).
+
+<br>
+
+## 참조 스타일 링크
+* 첫 번째 부분 서식 지정 :  
+  괄호의 첫 번째 집합은 연결된 것처럼 보이는 텍스트를 둘러싸고 있습니다. 두 번째 괄호 세트에는 문서의 다른 곳에 저장하는 링크를 가리키는 데 사용되는 레이블이 표시됩니다. 첫 번째와 두 번째 괄호 집합 사이에 공백을 포함할 수 있습니다. 두 번째 괄호 세트의 레이블은 대/소문자, 숫자, 공백 또는 문장 부호를 포함할 수 있습니다.
+
+  ex)  
+  [hobbit-hole][1]
+
+* 두 번째 부분 서식 지정 : 총 3가지의 특징으로 구성됩니다. 먼저, 대괄호로 라벨이 곧바로 이어지며, 그 다음에 하나 이상의 공간이 뒤따릅니다. 두 번째는 링크의 URL은 선택적으로 각도 대괄호에 동봉할 수 있습니다. 마지막으로 링크의 제목은 선택적이며 이중 따옴표, 단일 따옴표 등을 사용합니다.
+
+  ex)   
+  [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle  
+  [1]: https://en.wikipedia.org/wiki/Hobbit#Lifestyle "Hobbit lifestyles"  
+  [1]: <https://en.wikipedia.org/wiki/Hobbit#Lifestyle> (Hobbit lifestyles)
+
+<br>
+
+___
