@@ -17,7 +17,7 @@ https://github.com/kbn3751/GitGithub
  - [add](##add)
  - [commit](##commit)
  - [log](##log)
- - [reset](##reset)
+ - [reset--hard](##reset--hard)
  - [branch](##branch)
  - [checkout](##checkout)
  - [merge](##merge)
@@ -118,7 +118,7 @@ https://github.com/kbn3751/GitGithub
 
 ---
 
-## reset
+## reset--hard
 
     1. 현재까지의 문서를 add로 staging area에 옮겨 commit한 상태에서 계속해서 문서를 추가하여 add와 commit을 반복하는 상황입니다.
     2. 새로 추가한 내용이 마음에 들지 않아 이전 버전으로 수정하고자 합니다.
@@ -276,10 +276,10 @@ https://github.com/kbn3751/GitGithub
 <br>
 
 ## 결과
-|add|branch|checkout|clone|commit|config|init|log|
+|[add](##add)|[branch](##branch)|[checkout](##checkout)|[clone](##clone)|[commit](##commit)|[config](##config)|[init](##init)|[log](##log)|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |  O  |  O  |  O  |  O  |  O  |  O  |  O  |  O  |
 
-|merge|pull|push|rebase|remote|reset--hard|status|tag|
+|[merge](##merge)|[pull](##pull)|[push](##push)|[rebase](##rebase)|[remote](##remote)|[reset--hard](##reset--hard)|[status](##status)|[tag](##tag)|
 |:----:|:----:|:----:|:----:|:----:|:----:|:----:|:----:|
 |  O  |  O  |  O  |  O  |  O  |  O  |  O  |  O  |
