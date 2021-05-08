@@ -230,3 +230,17 @@ ___
 <br>
 
 ___
+
+## **이미지**
+이미지를 추가하려면 느낌표 뒤에 []와 ( ) 를 붙이면 됩니다. []안에는 이미지에 대한 간략한 설명을 첨부하고 ( )에는 이미지의 경로 또는 URL을 추가합니다. 괄호 안에 URL 이후에 선택적으로 제목을 추가할 수 있습니다.  
+**ex)**
+* 입력값
+``` 
+   ![software](https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2360C944579099CA1C)
+```
+* 출력값  
+  ![software](https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Ft1.daumcdn.net%2Fcfile%2Ftistory%2F2360C944579099CA1C)
+
+<br>
+
+___
